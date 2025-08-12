@@ -1,0 +1,53 @@
+name: e_commerce_chennai
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  get: ^4.7.2
+  http: ^1.5.0
+  lottie: ^3.3.1
+  flutter_screenutil: ^5.9.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/fonts/
+    - assets/lottie/
+    - assets/images/
+
+
+  fonts:
+     - family: Dm Sans
+       fonts:
+         - asset: assets/fonts/dm_sans_100.ttf
+         - asset: assets/fonts/dm_sans_200.ttf
+         - asset: assets/fonts/dm_sans_300.ttf
+         - asset: assets/fonts/dm_sans_400.ttf
+         - asset: assets/fonts/dm_sans_500.ttf
+         - asset: assets/fonts/dm_sans_600.ttf
+         - asset: assets/fonts/dm_sans_700.ttf
+         - asset: assets/fonts/dm_sans_800.ttf
+         - asset: assets/fonts/dm_sans_900.ttf
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
